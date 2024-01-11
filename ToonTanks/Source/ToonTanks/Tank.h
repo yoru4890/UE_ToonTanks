@@ -26,7 +26,7 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float TurnRate = 45.f;
 
-	APlayerController* PlayerControllerRef;
+	APlayerController* TankPlayerController;
 
 public:
 	ATank();
@@ -34,6 +34,10 @@ public:
 virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 virtual void Tick(float DeltaTime) override;
+
+void HandleDestruction();
+
+APlayerController* GetTankPlayerController() const {return TankPlayerController;}
 
 protected:
 	virtual void BeginPlay() override;
