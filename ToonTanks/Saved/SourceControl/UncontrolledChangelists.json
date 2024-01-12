@@ -11,7 +11,11 @@
 				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset",
 				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset",
 				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksGameMode.uasset",
-				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset"
+				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset",
+				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/Widgets/WBP_StartGameWidget.uasset",
+				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/Widgets/EndGameWidget.uasset",
+				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset",
+				"D:/github/game_project/Unreal_Game/UE_ToonTanks/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset"
 			]
 		}
 	]

@@ -31,13 +31,15 @@ private:
 public:
 	ATank();
 
-virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaTime) override;
 
-void HandleDestruction();
+	void HandleDestruction();
 
-APlayerController* GetTankPlayerController() const {return TankPlayerController;}
+	APlayerController* GetTankPlayerController() const {return TankPlayerController;}
+
+	bool bAlive = true;
 
 protected:
 	virtual void BeginPlay() override;
